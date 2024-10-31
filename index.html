@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"
     content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="style.css">
@@ -90,9 +91,10 @@
 </head>
 
 <body>
+  <div id="a"></div>
   <nav class="navbar navbar_Model navbar-expand-lg" style="color: white; background-color: #111;">
     <div class="container-fluid" style="color: white;">
-      <a class="navbar-brand" href="#" style="color: white;">Real Madrid</a>
+      <a class="navbar-brand"  style="color: white;"><img src="navbar_image.png"  alt="" width="50px" height="50px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
         style="background-color: white;">
@@ -101,13 +103,13 @@
       <div class="collapse navbar-collapse" id="navbarText" style="color: white;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item" style="color: white;">
-            <a class="nav-link active" aria-current="page" href="#" style="color: white;">
+            <a class="nav-link active" aria-current="page" href="#a" style="color: white;">
               <button class=" button button_read" type="button" data-bs-toggle="" data-bs-target="#offcanvasScrolling"
                 aria-controls="offcanvasScrolling">Home</button>
             </a>
           </li>
           <li class="nav-item" style="color: white;">
-            <a class="nav-link" href="#" style="color: white;">
+            <a class="nav-link" href="#last" style="color: white;">
               <button class=" button button_read" type="button" data-bs-toggle="" data-bs-target="#offcanvasScrolling"
                 aria-controls="offcanvasScrolling">Games</button>
             </a>
@@ -157,7 +159,7 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <header class="header_last">Last Games</header>
+  <header class="header_last" id="last">Last Games</header>
   <main>
     <div class="card card1">
       <div class="image">
@@ -414,7 +416,9 @@
 
                 <div class="card-content">
                   <h2 class="name">Vinisius Junior</h2>
-                  <p class="description">Vinícius José Paixão de Oliveira Júnior ( ; born 12 July 2000, São Gonçalo , Rio de Janeiro ), commonly known as Vinícius Júnior , is a Brazilian and Spanish footballer who plays as a forward for Real Madrid and the Brazil national team .</p>
+                  <p class="description">Vinícius José Paixão de Oliveira Júnior ( ; born 12 July 2000, São Gonçalo ,
+                    Rio de Janeiro ), commonly known as Vinícius Júnior , is a Brazilian and Spanish footballer who
+                    plays as a forward for Real Madrid and the Brazil national team .</p>
 
                   <a class="nav-link active" aria-current="page" target="_blank"
                     href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D0%B8%D1%81%D0%B8%D1%83%D1%81_%D0%96%D1%83%D0%BD%D0%B8%D0%BE%D1%80"
